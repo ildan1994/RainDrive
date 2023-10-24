@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical"
+
+    android:padding="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacy Consent And Disclaimer"
+        android:gravity="center"
+        android:textColor="@color/intro_title_color"
+        android:layout_marginTop="45dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:justificationMode="inter_word"
+        android:text="Under the Road Safety Act 1986, the Road Safety (Drivers) Regulations 2009, and the Road Safety Road Rules 2009, the use of mobile phones or other devices such as smart watches while driving or riding in Victoria is very restricted and significant penalties may apply. \n\nUnder Victoria’s Mobile phone rules, Learner, P1 and P2 drivers must NOT use a mobile phone (hand-held/hands-free/with Apple CarPlay or Android Auto) for any function while driving (including while stationary but not parked).\n\nUse of the app is at your own risk. Showing low risk on the application will not ensure your safety. The risk analysis done in the application is based on historical open data collected from myvictoria.vic.gov.au and no claim has been made as to the accuracy or currency of the content on that site at any time."
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:textAllCaps="true"
+        android:background="@drawable/custom_round_button"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:cornerRadius="20dp"
+        app:backgroundTint="@color/colorBlueWeather"
+        android:text="accept"
+
+        />
+
+    <Button
+        android:id="@+id/btn_decline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:textAllCaps="true"
+        android:background="@drawable/custom_round_button"
+        app:cornerRadius="20dp"
+        app:backgroundTint="@color/colorSecondaryText"
+        android:text="Decline"
+
+        />
+
+
+
+</LinearLayout>

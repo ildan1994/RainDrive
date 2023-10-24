@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorRed">#FA1504</color>
+    <color name="colorOrange">#FF9800</color>
+    <color name="colorYellow">#CEFFEB3B</color>
+    <color name="colorGreen">#0a8043</color>
+    <color name="colorPrimary">#44D1C1</color>
+    <color name="colorPrimaryDark">#4A47A7</color>
+    <color name="colorBlueTransparent">#0F5F9E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#606060</color>
+    <color name="colorBackground">#DFE4E6</color>
+    <color name="colorDivider">#ECECEC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="textSecondaryWeather">#B0D6F4</color>
+    <color name="colorBlueWeather">#4a99d2</color>
+    <color name="overlay">#BF000000</color>
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+</resources>

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "com.example.raindriveiter1_10"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'nl.joery.animatedbottombar:library:1.0.8'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
+    implementation 'com.github.happysingh23828:HappyTimer:1.0.1'
+    implementation 'com.google.maps.android:android-maps-utils:2.0.3'
+    implementation 'androidx.work:work-runtime-ktx:2.4.0'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    // Room
+    implementation 'androidx.room:room-runtime:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    //ViewModel and LiveData
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-livedata:2.2.0"
+    //balloon
+    implementation "com.github.skydoves:balloon:1.2.4"
+
+}
